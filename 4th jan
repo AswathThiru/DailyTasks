@@ -1,1 +1,87 @@
+Task 1
+
+
+import java.util.Scanner;
+
+class CreateUsers {
+    String username;
+    int mobileNumber;
+    int age;
+
+    void createUser(CreateUsers user1) {
+        System.out.println("Enter User Information");
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Enter Your Name");
+        user1.username = sc1.next();
+        System.out.println("Enter your Mobile number");
+        user1.mobileNumber = sc1.nextInt();
+        System.out.println("Enter Age");
+        user1.age = sc1.nextInt();
+
+    }
+
+    void displayUserInfo(CreateUsers user1) {
+        System.out.println("Name: " + user1.username);
+        System.out.println("Mobile Number: " + user1.mobileNumber);
+        System.out.println("Age: " + user1.age);
+
+    }
+
+}
+
+class User {
+
+    public static void main(String[] args) {
+
+        CreateUsers user1 = new CreateUsers();
+        user1.createUser(user1);
+        user1.displayUserInfo(user1);
+
+    }
+}
+
+
+
+
+
+Task2
+
+
+class CreateUser {
+    String username;
+    int mobileNumber;
+    int age;
+
+    void CreateUser(CreateUser user1) {
+        
+        user1.username="Aswath";
+        user1.mobileNumber=1234567890;
+        user1.age="22"
+       
+
+    }
+
+    void displayUserInfo(CreateUser user1) {
+        System.out.println("Name: " + user1.username);
+        System.out.println("Mobile Number: " + user1.mobileNumber);
+        System.out.println("Age: " + user1.age);
+
+    }
+
+}
+
+class User {
+
+    public static void main(String[] args) {
+
+        CreateUser user1 = new CreateUser();
+        user1.CreateUser(user1);
+        user1.displayUserInfo(user1);
+
+    }
+}
+
+
+
+Task 3
 
