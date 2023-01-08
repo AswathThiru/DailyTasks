@@ -16,7 +16,7 @@ class College {
 
     void DisplayCollege() {
         System.out.println("Here is Your College Detail");
-        System.out.println(".........................................");
+        System.out.println("........................................");
         System.out.println("College Name : " + CollegeName);
         System.out.println("College Id : " + CollegeId);
         System.out.println("College Adress : " + CollegeAd);
