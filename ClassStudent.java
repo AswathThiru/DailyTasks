@@ -29,7 +29,7 @@ public class ClassStudent {
     }
 
     public void displayStudent() {
-        System.out.println("enter the student number:");
+        System.out.println("enter the student number: ");
         int index = sc.nextInt();
         ClassStudent arrayStudent1 = arrayStudent[index];
         System.out.println("Enter name:" + arrayStudent1.name);
