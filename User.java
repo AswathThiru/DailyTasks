@@ -57,7 +57,7 @@ public class User {
         float pBankAmount = sc.nextFloat();
         System.out.println("Enter the parent bank Intrest ");
         int pBankIntrest = sc.nextInt();
-        System.out.println("Enter the parent bank Pnone Number");
+        System.out.println("Enter the parent bank Pnone Number ");
         long pBankPhone = sc.nextLong();
         Bank B1 = new Bank(pBankName, pBankId, pBankAmount, pBankIntrest, pBankPhone);
 
