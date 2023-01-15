@@ -47,7 +47,7 @@ public class Helper {
         String CollegeName = sc.next();
         System.out.println("Enter student Place ");
         String Place = sc.next();
-        System.out.println("Enter student branch");
+        System.out.println("Enter student branch ");
         String branch = sc.next();
 
         Student S1 = new Student();
