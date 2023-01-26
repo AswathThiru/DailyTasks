@@ -1,0 +1,27 @@
+mongod --verson
+mongosh --version
+mongod
+show dbs;
+dbName
+db
+show collections
+db.createCollection('collection_name')
+db.users.insertOne({name:'aswath',place:'pollachi',number:6})
+db.collection_name.find()
+$set
+$inc
+$min
+$max
+$rename
+$unset
+$push
+$pop
+$pull
+db.college.find().limit(3)
+db.college.remove({codition})
+db.college.removeAll()
+db.collection_name.drop()
+db.database_name.drop()
+use database_name;
+db.dropDatabase();
+  
